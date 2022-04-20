@@ -10,7 +10,7 @@ include("Telegram.php");
 
 //Make var called BOT_TOKEN
 if (empty(getenv('BOT_TOKEN'))){
-$bot_id = "API_Token";
+$bot_id = "5340197733:AAF3Ruih5GgfwncZ9OtQsx8QCrfvQITLE3U";
 } else {
 $bot_id = getenv('BOT_TOKEN');
 }
